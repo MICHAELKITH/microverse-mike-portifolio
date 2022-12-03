@@ -1,23 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
   font-family: "Poppins", sans-serif;
 }
-body{
-    font-family: "Poppins", sans-serif;
-}
+
 .header {
   display: flexbox;
   justify-content: center;
   align-items: center;
   position: relative;
-  background: #fff;
+  background-color: #fff;
   padding-top: 30px;
   color: #6070ff;
-  margin-left: 10px;
+  margin: 15px;
 }
 
 .headline-section {
@@ -25,10 +26,12 @@ body{
   font-weight: 100;
   background-image: url("image/header-shapes\ mobile@2x.png");
   object-fit: cover;
+  background-size: cover;
   padding-top: 50px;
   margin: 15px;
-  font-family: 'Poppins';
+  font-family: Poppins;
   font-style: normal;
+
 }
 
 .header a.icon {
@@ -39,7 +42,6 @@ body{
   justify-self: center;
   padding-top: 30px;
   color: #6070ff;
-  margin-right: 10px;
 }
 
 .active {
@@ -52,7 +54,6 @@ body{
 
 h2 {
   color: #7f8cff;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -83,7 +84,7 @@ h2 {
   margin-top: 50px;
   width: 320px;
   height: 140px;
-  color: #172B4D;
+  color: #172b4d;
   line-height: 50px;
   font-size: 38.77px;
   font-weight: 750;
@@ -94,9 +95,7 @@ h2 {
   font-weight: 400;
   font-size: 15px;
   padding-top: 45px;
-  line-height:25px;
+  line-height: 25px;
   color: #344563;
   flex-grow: 0;
- 
-
 }
