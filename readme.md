@@ -1,26 +1,4 @@
 <a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
 # section part 
 
 <div align="center">
@@ -28,17 +6,16 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Microverse-mike-portifolio</b></h3>
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [section part](#section-part)
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[my-portifolio \] ](#-my-portifolio--)
+- [📖 \[microverse-mike-portifolio\] ](#-microverse-mike-portifolio-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -58,13 +35,12 @@ After you're finished please remove all the comments and instructions!
   - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
 
-<!-- PROJECT DESCRIPTION -->
 
-# 📖 [my-portifolio ] <a name="about-project"></a>
+# 📖 [microverse-mike-portifolio] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[My portifolio]** it is a project that contains my career information and the company and clients i have i worked for.
+**[Mike-portifolio]** This project contains my information regarding developing skills I have..
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -93,7 +69,7 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<!-- Features -->
+
 
 ### Key Features <a name="key-features"></a>
 
@@ -105,7 +81,7 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -115,91 +91,54 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 > Describe how a new developer could make use of your project.
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps, 
+install npm packages using npm install 
+
+Run npm init -y
+
 
 ### Prerequisites
 
 In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
+ You need to creates the following folders in your project. 
+ 1.github/workflows
+ 2.hintrc file
+ 3. stylelintrc file 
+ 4. 
 ### Setup
 
 Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
+To clone this repository you git clone repository https 
 ### Install
 
 Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+node.js 
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
+//
 
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
+Check for linters description document 
 ### Deployment
 
 You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+Any host/free host or github pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -212,14 +151,14 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[I will implement javascript]**
-- [ ] **[I will add contact form ]**
+- [ ] **[Index.html on the html-css branch]**
+- [ ] **[style.css ]**
 - [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -250,7 +189,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank the microverse team for the support and guidance 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -260,9 +199,9 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[How to get linter files for the testing ]**
 
-  - [Answer_1]
+  - [You can clone my repo and all files will be there]
 
 - **[Question_2]**
 
