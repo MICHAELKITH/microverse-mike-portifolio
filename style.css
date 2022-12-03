@@ -25,7 +25,10 @@ body{
   font-weight: 100;
   background-image: url("image/header-shapes\ mobile@2x.png");
   object-fit: cover;
-  padding-top: 100px;
+  padding-top: 50px;
+  margin: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
 }
 
 .header a.icon {
@@ -78,24 +81,22 @@ h2 {
 .txt {
   padding-top: 10px;
   margin-top: 50px;
-  font-family: 'Poppins';
   width: 320px;
   height: 140px;
-  color: #172b4d;
+  color: #172B4D;
   line-height: 50px;
   font-size: 38.77px;
-  font-weight: 600;
+  font-weight: 750;
   align-items: center;
 }
 
 .introduction {
-  font-family: 'Poppins';
   font-weight: 400;
   font-size: 15px;
-  padding-bottom: 10px;
+  padding-top: 45px;
   line-height:25px;
   color: #344563;
-  font-style: normal;
   flex-grow: 0;
+ 
 
 }
