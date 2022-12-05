@@ -8,28 +8,39 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: #e5e5e5;
 }
 
 .header {
-  display: flexbox;
-  justify-content: center;
+  display: flex;
   align-items: center;
   position: relative;
   background-color: #fff;
-  padding-top: 30px;
+  padding: 20px;
   color: #6070ff;
-  margin: 15px;
+  margin: 0 auto;
 }
 
-.headline-section {
-  display: flexbox;
+nav {
+  display: flex;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.main-section {
   font-weight: 100;
   background-image: url("image/header-shapes\ mobile@2x.png");
   object-fit: cover;
-  background-size: cover;
-  padding-top: 50px;
-  margin: 15px;
+  padding-top: 40px;
   font-style: normal;
+  border-end-start-radius: 17%;
+  background-color: #fff;
+  display: block;
+  height: 70vh;
+  width: 100%;
 }
 
 .header a.icon {
@@ -38,8 +49,10 @@ body {
   right: 0;
   top: 0;
   justify-self: center;
-  padding-top: 30px;
+  padding-top: 10px;
   color: #6070ff;
+  margin: 5px;
+  margin-right: 8%;
 }
 
 .active {
@@ -61,13 +74,23 @@ h2 {
 .icons {
   display: flex;
   align-content: center;
-  gap: 25px;
   width: 100px;
   padding-top: 20px;
   color: #505f79;
+}
+
+.social-media {
+  flex-direction: row;
+  display: flex;
+  gap: 25px;
   left: 10px;
   bottom: 20%;
   top: 80%;
+  padding-bottom: 40px;
+}
+
+.social-media:hover {
+  color: #6070ff;
 }
 
 .fa-brands {
@@ -77,9 +100,12 @@ h2 {
   bottom: 20%;
 }
 
-.txt {
-  padding-top: 10px;
-  margin-top: 50px;
+.intro-part {
+  margin: 25px;
+}
+
+.intro {
+  display: flex;
   width: 320px;
   height: 140px;
   color: #172b4d;
@@ -89,10 +115,11 @@ h2 {
   align-items: center;
 }
 
-.introduction {
+.about {
   font-weight: 400;
   font-size: 15px;
-  padding-top: 45px;
+  padding-bottom: 10px;
+  padding-top: 20px;
   line-height: 25px;
   color: #344563;
   flex-grow: 0;
