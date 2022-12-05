@@ -15,9 +15,9 @@
     - [Deployment](#deployment)
   - [🔭 Future Features ](#-future-features-)
 
-# 📖 Hello Microverse <a name="about-project"></a>
+# 📖 Portifolio Mobile and set up first <a name="about-project"></a>
 
-**Hello Microverse** is a simple project to get started with linters and best practices for version control with git.
+**Portifolio Mobile and set up first** this is a project to set up first portifolio mobile set up first 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,7 +52,7 @@ To get a local copy up and running, follow these steps.
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder: https://github.com/MICHAELKITH/microverse-mike-portifolio.git
 
 
 ### Install
@@ -66,7 +66,8 @@ Install this project with:
 ### Run tests
 
 To run tests, run the following command:
-
+To test lint styles learn this command in your git 
+npx stylelint "**/*.{css,scss}"
 
 ### Deployment
 
