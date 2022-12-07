@@ -41,6 +41,7 @@ ul {
   display: block;
   height: 70vh;
   width: 100%;
+  background-size: cover;
 }
 
 .header a.icon {
